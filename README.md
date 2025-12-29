@@ -1,11 +1,35 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# CleanUp AI - Akıllı Filigran ve Nesne Silici
 
-  <h1>Built with AI Studio</h2>
+CleanUp AI, fotoğraflarınızdaki filigranları, logoları ve istenmeyen nesneleri Gemini yapay zeka modellerini kullanarak profesyonelce temizler. Artık hem ücretsiz hem de ücretli kullanıcılar için optimize edilmiş model seçenekleri sunuyor.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Model Seçenekleri (Engines)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Uygulama içinde iki farklı yapay zeka motoru arasında seçim yapabilirsiniz:
 
-</div>
+1.  **Flash (Standard - Gemini 2.5 Flash):**
+    *   **Avantajı:** Çok hızlıdır ve genellikle ücretsiz (unpaid) API anahtarlarıyla çalışır.
+    *   **Kısıtlama:** 1K çözünürlük desteği sunar. Standart temizlik işleri için idealdir.
+2.  **Pro (Ultra - Gemini 3 Pro):**
+    *   **Avantajı:** 2K yüksek çözünürlük ve üst düzey doku onarımı sağlar.
+    *   **Kısıtlama:** Sadece **Paid Project** (Faturalandırması açık) API anahtarlarıyla çalışır. Ücretsiz anahtarlarda 403 hatası verir.
+
+## ⚠️ 403 Hatası Alıyorsanız Ne Yapmalısınız?
+
+Eğer "Permission Denied" (Erişim Engellendi) veya 403 hatası alıyorsanız:
+1.  **Sağ panelden "Flash (Standard)" motorunu seçin.** Bu model ücretsiz anahtarların çoğunda çalışacaktır.
+2.  Eğer Pro modelini kullanmak istiyorsanız, Google Cloud projenizde [Faturalandırmayı (Billing)](https://ai.google.dev/gemini-api/docs/billing) etkinleştirmeniz gerekir.
+
+## ✨ Özellikler
+- **Toplu İşlem:** Onlarca fotoğrafı aynı anda sürükleyin ve işleyin.
+- **Doku Onarımı:** Yapay zeka, silinen alanın arkasını çevreye uygun şekilde "hayal ederek" doldurur.
+- **ZIP İndirme:** Tüm temizlenmiş fotoğrafları tek seferde paket halinde indirin.
+
+## 🛠️ Başlık Önerileri (GitHub)
+- `CleanUp-AI: Batch Watermark Remover (Gemini Pro/Flash)`
+- `AI-Photo-Cleaner: Object Eraser with Multi-Model Support`
+- `Pro-Eraser-AI: Batch Image Processing via Gemini 3`
+
+## 📝 Kullanım İpuçları
+- **AI Prompt:** Sadece neyin silinmesini istediğinizi yazın. Örn: "Remove the text in the corner" veya "Delete the logo".
+- **Hassaslık:** Musluk, lavabo gibi gerçek objelerin silinmemesi için sistem içinde özel koruma komutları bulunmaktadır.
